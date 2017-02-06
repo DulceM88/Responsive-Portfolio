@@ -1,0 +1,212 @@
+body{
+	background-image:url(../images/rainbows.png);
+	background-repeat:repeat;
+	margin:0px;
+	}
+
+
+#navBarWrapper{
+	background:#ffffff;
+	position:fixed;
+	width:100%;
+	height:90px;
+	border-style:solid;
+	border-width:thin;
+	border-color:#dddddd;
+}
+#navNameBox{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	float:left;
+	background:#4aaaa5;
+	color:#ffffff;
+	position:relative;
+	bottom:21px;
+	padding:27px;
+	margin-left:190px;
+}
+#navLinks{
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float:right;
+	margin-right:230px;
+	list-style-type:none;
+}	
+#aboutMe{
+	margin-left:30px;
+	margin-right:40px;
+	padding-bottom:35px;
+	border-bottom-style:solid;
+	border-bottom-color:#dddddd;
+	color:#4aaaa5;
+}
+
+
+.indexAbout{
+	border-style:solid;
+	border-width:thin;
+	border-color:#dddddd;
+	width:645px;
+	height:478px;
+	background:#ffffff;
+	float:left;
+	margin-left:190px;
+	margin-top:130px;
+	margin-bottom:40px;
+
+}
+#profilePic{
+	height:150px;
+	width:150px;
+	padding:20px;
+	float:left;
+	margin-left:10px;
+}
+p{
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height:2.0;
+	margin-left:30px;
+	margin-right:35px;
+}
+
+.portfolioBlock{
+	background:#ffffff;
+	border-style:solid;
+	border-color:#dddddd;
+	border-width:thin;
+	height:860px;
+	width:650px;
+	float:left;
+	margin-top:135px;
+	margin-left:190px;
+}
+.projectImages{
+	float:left;
+	width:275px;
+	height:205px;
+	padding:20px;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#4aaaa5;
+}
+#portfolioItems{
+	margin-left:20px;
+	color:#4aaaa5;
+	border-bottom-style:solid;
+	border-bottom-color:#dddddd;
+	margin-right:40px;
+}
+#project1{
+	height:205px;
+	width:275px;
+}
+#project2{
+	height:205px;
+	width:275px;
+}
+#project3{
+	height:205px;
+	width:275px;
+}
+#project4{
+	height:205px;
+	width:275px;
+}
+#project5{
+	height:205px;
+	width:275px;
+}
+.contactBlock{
+	background:#ffffff;
+	border-style:solid;
+	border-color:#dddddd;
+	border-width:thin;
+	height:605px;
+	width:650px;
+	float:left;
+	margin-top:135px;
+	margin-left:190px;
+	margin-bottom:30px;
+}
+label{
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:grey;
+}
+form{
+	margin-left:20px;
+}
+input{
+	height:35px;
+	width:590px;
+}
+textarea{
+	width:590px;
+	height:200px;
+}
+.icons{
+	width:60px;
+	height:60px;
+}
+aside{
+	border-style:solid;
+	border-width:thin;
+	border-color:#dddddd;
+	background:#ffffff;
+	color:#4aaaa5;
+	width:207px;
+	padding:20px;
+	text-align:center;
+	float:left;
+	margin-top:130px;
+	margin-left:35px;
+}
+.bottomBorder{
+	background:#4aaaa5;
+	width:100%;
+	height:10px;
+	clear:both;
+}
+footer{
+	clear:both;
+	text-align:center;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding:20px;
+	width:100%;
+	background:#666666;
+}
+/* responsive code*/
+
+@media handheld, screen and (max-width: 640px) {
+	
+	body{
+	background-image:url(../images/rainbows.png);
+	background-repeat:repeat;
+	margin:0px;
+	}
+	#navBarWrapper{
+	position:static;
+	width:100%;
+	height:90px;
+	}
+	#navNameBox{
+	float:left;
+	position:relative;
+	bottom:21px;
+	padding:27px;
+	margin-left:auto;
+	}
+	#navLinks{
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float:right;
+	margin-right:auto;
+	list-style-type:none;
+	}	
+	
+	.indexAbout{
+	width:95%;
+	height:651px;
+	float:left;
+	margin-left:12px;
+	margin-top:-10px;
+	margin-bottom:-75px;
+	}
+
+
+}
