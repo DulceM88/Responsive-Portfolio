@@ -163,6 +163,7 @@ aside{
 	height:10px;
 	clear:both;
 }
+
 footer{
 	clear:both;
 	text-align:center;
@@ -175,11 +176,6 @@ footer{
 
 @media handheld, screen and (max-width: 640px) {
 	
-	body{
-	background-image:url(../images/rainbows.png);
-	background-repeat:repeat;
-	margin:0px;
-	}
 	#navBarWrapper{
 	position:static;
 	width:100%;
@@ -193,20 +189,232 @@ footer{
 	margin-left:auto;
 	}
 	#navLinks{
-	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	float:right;
-	margin-right:auto;
-	list-style-type:none;
+	margin-right:-6px;
 	}	
 	
 	.indexAbout{
 	width:95%;
-	height:651px;
+	height:712px;
 	float:left;
 	margin-left:12px;
 	margin-top:-10px;
-	margin-bottom:-75px;
+	margin-bottom:-60px;
 	}
 
-
+	.portfolioBlock{
+	height:inherit;
+	width:95%;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	padding-bottom:10px;
 }
+	.contactBlock{
+	height:605px;
+	width:95%;
+	float:left;
+	margin-top:-1px;
+	margin-left:9px;
+	margin-bottom:30px;
+}
+	
+input{
+	height:35px;
+	width:95%;
+}
+textarea{
+	width:95%;
+	height:200px;
+}
+	aside{
+	
+	width:207px;
+	padding:20px;
+	text-align:center;
+	float:left;
+	margin-top:105px;
+	margin-left:80px;
+	margin-bottom:20px;
+	}
+}
+
+/*medium size screens*/
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+	
+	#navBarWrapper{
+	position:static;
+	width:100%;
+	height:90px;
+	}
+	#navNameBox{
+	float:left;
+	position:relative;
+	bottom:21px;
+	padding:27px;
+	margin-left:auto;
+	}
+	#navLinks{
+	float:right;
+	margin-right:auto;
+	}	
+	
+	.indexAbout{
+	width:95%;
+	height:550px;
+	float:left;
+	margin-left:15px;
+	margin-top:-1px;
+	margin-bottom:-60px;
+	}
+	#profilePic{
+	height:220px;
+	width:280px;
+	}
+
+	.portfolioBlock{
+	height:inherit;
+	width:97%;
+	float:left;
+	margin-top:-9px;
+	margin-left:10px;
+	}
+
+	.projectImages{
+	width:245px;
+	height:205px;
+	padding:22px;
+	
+	}
+
+	.contactBlock{
+	
+	width:95%;
+	float:left;
+	margin-top:-15px;
+	margin-left:12px;
+	margin-bottom:-60px;
+	}
+	
+	input{
+	height:35px;
+	width:530px;
+	}
+
+	textarea{
+	width:530px;
+	height:200px;
+	}
+	
+	aside{
+	width:207px;
+	padding:20px;
+	text-align:center;
+	float:left;
+	margin-top:85px;
+	margin-left:175px;
+	margin-bottom:20px;
+	}
+}
+	
+/*larger screens*/
+@media only screen and (min-width: 980px) {
+	#navBarWrapper{
+	position:static;
+	width:100%;
+	height:90px;
+	}
+	#navNameBox{
+	float:left;
+	position:relative;
+	bottom:21px;
+	padding:27px;
+	margin-left:auto;
+	}
+	#navLinks{
+	float:right;
+	margin-right:auto;
+	}	
+	
+	.indexAbout{
+	width:53%;
+	height:685px;
+	float:left;
+	margin-left:-243px;
+	margin-top:85px;
+	margin-bottom:80px;
+	}
+	#profilePic{
+	height:auto;
+	width:85%;
+	}
+	
+	.portfolioBlock{
+	height:auto;
+	width:570px;
+	float:left;
+	margin-top:85px;
+	margin-left:-252px;
+	margin-bottom:60px;
+	}
+
+	.projectImages{
+	padding:30px;
+	margin-left:30px;
+	margin-top:-20px;
+	width:75%;
+	height:auto;
+	}
+	#project1{
+	height:auto;
+	width:100%;
+	}
+	#project2{
+	height:auto;
+	width:100%;
+	}
+	#project3{
+	height:auto;
+	width:100%;
+	}
+	#project4{
+	height:auto;
+	width:100%;
+
+	}
+	#project5{
+	height:auto;
+	width:100%;
+	}
+/*
+	.contactBlock{
+	
+	width:95%;
+	float:left;
+	margin-top:-15px;
+	margin-left:12px;
+	margin-bottom:-60px;
+	}
+	
+	input{
+	height:35px;
+	width:530px;
+	}
+
+	textarea{
+	width:530px;
+	height:200px;
+	}
+	*/
+	aside{
+	width:207px;
+	padding:20px;
+	text-align:center;
+	float:left;
+	margin-top:85px;
+	margin-left:95px;
+	margin-bottom:20px;
+	}
+}
+	
+
