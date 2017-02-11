@@ -329,11 +329,11 @@ textarea{
 	position:relative;
 	bottom:21px;
 	padding:27px;
-	margin-left:auto;
+	margin-left:170px;
 	}
 	#navLinks{
 	float:right;
-	margin-right:auto;
+	margin-right:160px;
 	}	
 	
 	.indexAbout{
@@ -386,13 +386,13 @@ textarea{
 	height:auto;
 	width:100%;
 	}
-/*
+
 	.contactBlock{
 	
-	width:95%;
+	width:50%;
 	float:left;
-	margin-top:-15px;
-	margin-left:12px;
+	margin-top:40px;
+	margin-left:-285px;
 	margin-bottom:-60px;
 	}
 	
@@ -405,7 +405,7 @@ textarea{
 	width:530px;
 	height:200px;
 	}
-	*/
+	
 	aside{
 	width:207px;
 	padding:20px;
